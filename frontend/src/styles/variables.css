@@ -1,0 +1,137 @@
+:root {
+  /* ==========================================================================
+     Dgate Homes Official Brand Palette Tokens
+     - Ware Beige:    #EDECE6
+     - Sun Yellow:    #F9B318
+     - Navy:          #171052
+     - White:         #FFFFFF
+     - Dark Text:     #1F1F24
+     - Border:        #DDD9CF
+     - Muted Text:    #77736B
+     ========================================================================== */
+
+  /* 1. Navy (Primary Navigation, Admin Sidebar, Top Header, Primary Buttons, Headings) */
+  --color-brand-navy: #171052;
+  --color-brand-navy-hover: #120c41;
+  --color-brand-navy-active: #0c082e;
+  --color-brand-navy-light: #231b6e;
+  --color-brand-navy-subtle: #f0eff8;
+  --color-brand-navy-border: #c4c1e0;
+
+  /* 2. Sun Yellow (Primary CTA Accents, Active Nav, Badges, Icons, Focus Rings) */
+  --color-brand-yellow: #F9B318;
+  --color-brand-yellow-hover: #e09f10;
+  --color-brand-yellow-active: #c58a0a;
+  --color-brand-yellow-light: #fef7e8;
+  --color-brand-yellow-subtle: #fefaf2;
+  --color-brand-yellow-border: #fcd98b;
+  --color-brand-yellow-text: #825a05;
+
+  /* 3. Ware Beige (Page Backgrounds, Alternate Sections, Admin Main Bg, Filter Bg) */
+  --color-brand-beige: #EDECE6;
+  --color-brand-beige-hover: #e2e0d8;
+  --color-brand-beige-subtle: #f7f6f3;
+  --color-brand-beige-border: #DDD9CF;
+
+  /* 4. Global Surfaces & Backgrounds */
+  --color-bg: #EDECE6;
+  --color-surface: #FFFFFF;
+  --color-white: #FFFFFF;
+  --color-bg-primary: #EDECE6;
+  --color-bg-subtle: #EDECE6;
+  --color-bg-card: #FFFFFF;
+  --color-bg-alt: #EDECE6;
+  --color-brand-bg-light: #EDECE6;
+
+  /* 5. Typography & Text */
+  --color-text: #1F1F24;
+  --color-text-main: #1F1F24;
+  --color-text-secondary: #424147;
+  --color-text-muted: #77736B;
+  --color-brand-muted: #77736B;
+  --color-text-light: #949088;
+  --color-text-white: #FFFFFF;
+
+  /* 6. Dark Surfaces & Headings */
+  --color-black: #1F1F24;
+  --color-black-heading: #171052;
+  --color-black-surface: #171052;
+  --color-black-footer: #171052;
+  --color-black-muted: #241c6f;
+  --color-brand-near-black: #1F1F24;
+  --color-brand-white: #FFFFFF;
+
+  /* 7. Borders & Dividers */
+  --color-border: #DDD9CF;
+  --color-brand-border: #DDD9CF;
+  --color-border-dark: #171052;
+  --color-border-hover: #c8c3b6;
+  --color-border-yellow: #F9B318;
+  --color-border-amber: #F9B318;
+
+  /* 8. Backward Compatibility Aliases */
+  --color-brand-walnut: var(--color-brand-navy);
+  --color-brand-walnut-hover: var(--color-brand-navy-hover);
+  --color-brand-walnut-active: var(--color-brand-navy-active);
+  --color-brand-walnut-light: var(--color-brand-navy-light);
+  --color-brand-walnut-subtle: var(--color-brand-beige);
+  --color-brand-walnut-border: var(--color-border);
+
+  --color-brand-amber: var(--color-brand-yellow);
+  --color-brand-amber-hover: var(--color-brand-yellow-hover);
+  --color-brand-amber-active: var(--color-brand-yellow-active);
+  --color-brand-amber-light: var(--color-brand-yellow-light);
+  --color-brand-amber-subtle: var(--color-brand-yellow-subtle);
+  --color-brand-amber-border: var(--color-brand-yellow-border);
+  --color-brand-amber-text: var(--color-brand-yellow-text);
+
+  --color-brand-accent: var(--color-brand-yellow);
+  --color-brand-accent-hover: var(--color-brand-yellow-hover);
+  --color-brand-accent-active: var(--color-brand-yellow-active);
+  --color-brand-accent-light: var(--color-brand-yellow-light);
+  --color-brand-accent-subtle: var(--color-brand-yellow-subtle);
+
+  --color-yellow-primary: var(--color-brand-yellow);
+  --color-yellow-hover: var(--color-brand-yellow-hover);
+  --color-yellow-active: var(--color-brand-yellow-active);
+  --color-yellow-light: var(--color-brand-yellow-light);
+  --color-yellow-subtle: var(--color-brand-yellow-subtle);
+  --color-yellow-accent: var(--color-brand-yellow);
+
+  --color-brand-sage: var(--color-brand-yellow);
+  --color-brand-sage-hover: var(--color-brand-yellow-hover);
+  --color-brand-sage-active: var(--color-brand-yellow-active);
+  --color-brand-sage-light: #fef7e8;
+  --color-brand-sage-subtle: #fefaf2;
+  --color-brand-sage-border: #fcd98b;
+  --color-brand-sage-text: #825a05;
+
+  /* Typography */
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+
+  /* Radius */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(31, 31, 36, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(31, 31, 36, 0.07), 0 2px 4px -2px rgba(31, 31, 36, 0.05);
+  --shadow-lg: 0 10px 15px -3px rgba(31, 31, 36, 0.08), 0 4px 6px -4px rgba(31, 31, 36, 0.03);
+  --shadow-xl: 0 20px 25px -5px rgba(31, 31, 36, 0.1), 0 8px 10px -6px rgba(31, 31, 36, 0.04);
+  --shadow-card: 0 4px 20px rgba(31, 31, 36, 0.06);
+  --shadow-yellow: 0 8px 20px -4px rgba(249, 179, 24, 0.35);
+  --shadow-amber: 0 8px 20px -4px rgba(249, 179, 24, 0.35);
+
+  /* Spacing & Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Container Widths */
+  --container-max: 1280px;
+}
